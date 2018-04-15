@@ -1215,12 +1215,12 @@ NoConn ~ 1950 1400
 Text Label 4450 7000 1    50   ~ 0
 MOT_CLOCK
 $Comp
-L Jumper:Jumper_3_Bridged12 JP?
+L Jumper:Jumper_3_Bridged12 JP2
 U 1 1 5AE572A9
 P 4450 6250
-F 0 "JP?" H 4550 6050 50  0000 C CNN
+F 0 "JP2" H 4550 6050 50  0000 C CNN
 F 1 "Motor Clock Select" H 4350 6350 50  0000 C CNN
-F 2 "" H 4450 6250 50  0001 C CNN
+F 2 "Jumper:SolderJumper-3_P1.3mm_Bridged2Bar12_Pad1.0x1.5mm" H 4450 6250 50  0001 C CNN
 F 3 "~" H 4450 6250 50  0001 C CNN
 	1    4450 6250
 	1    0    0    -1  
@@ -1230,21 +1230,21 @@ Wire Wire Line
 Wire Wire Line
 	4450 6400 4450 7100
 $Comp
-L Connector_Generic:Conn_01x02 J?
+L Connector_Generic:Conn_01x02 J30
 U 1 1 5AE79165
 P 4350 5750
-F 0 "J?" H 4270 5425 50  0000 C CNN
+F 0 "J30" H 4270 5425 50  0000 C CNN
 F 1 "Ext Clock" H 4270 5516 50  0000 C CNN
-F 2 "" H 4350 5750 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 4350 5750 50  0001 C CNN
 F 3 "~" H 4350 5750 50  0001 C CNN
 	1    4350 5750
 	-1   0    0    1   
 $EndComp
 $Comp
-L power:GND #PWR?
+L power:GND #PWR076
 U 1 1 5AE793BA
 P 4550 5850
-F 0 "#PWR?" H 4550 5600 50  0001 C CNN
+F 0 "#PWR076" H 4550 5600 50  0001 C CNN
 F 1 "GND" H 4555 5677 50  0000 C CNN
 F 2 "" H 4550 5850 50  0001 C CNN
 F 3 "" H 4550 5850 50  0001 C CNN

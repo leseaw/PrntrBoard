@@ -4,7 +4,7 @@ EELAYER 26 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
-Sheet 3 34
+Sheet 25 34
 Title ""
 Date ""
 Rev ""
@@ -15,7 +15,7 @@ Comment3 ""
 Comment4 ""
 $EndDescr
 $Sheet
-S 2700 1950 950  1650
+S 2700 1950 950  1700
 U 5AD4B0F5
 F0 "Driver" 50
 F1 "MotorDriver_TMC2660.sch" 50
@@ -33,6 +33,7 @@ F12 "MOSI" I L 2700 3050 50
 F13 "MISO" O L 2700 3150 50 
 F14 "~ENABLE" I L 2700 3300 50 
 F15 "SG_TST" O L 2700 3450 50 
+F16 "CLOCK" I L 2700 3550 50 
 $EndSheet
 Text HLabel 2600 2600 0    50   Input ~ 0
 STEP
@@ -96,7 +97,7 @@ U 1 1 5AD4BF35
 P 2300 4000
 AR Path="/5AC337B6/5ACBE919/5AD4BF35" Ref="J10"  Part="1" 
 AR Path="/5AC337B6/5AD9F95A/5AD4BF35" Ref="J24"  Part="1" 
-F 0 "J10" H 2350 4217 50  0000 C CNN
+F 0 "J24" H 2350 4217 50  0000 C CNN
 F 1 "Probe" H 2350 4126 50  0000 C CNN
 F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 2300 4000 50  0001 C CNN
 F 3 "~" H 2300 4000 50  0001 C CNN
@@ -182,7 +183,7 @@ U 1 1 5AD53BDD
 P 6750 2700
 AR Path="/5AC337B6/5ACBE919/5AD53BDD" Ref="J11"  Part="1" 
 AR Path="/5AC337B6/5AD9F95A/5AD53BDD" Ref="J25"  Part="1" 
-F 0 "J11" H 6829 2692 50  0000 L CNN
+F 0 "J25" H 6829 2692 50  0000 L CNN
 F 1 "Extruder Heater" H 6829 2601 50  0000 L CNN
 F 2 "TerminalBlock_Phoenix:TerminalBlock_Phoenix_PT-1,5-2-3.5-H_1x02_P3.50mm_Horizontal" H 6750 2700 50  0001 C CNN
 F 3 "~" H 6750 2700 50  0001 C CNN
@@ -194,4 +195,8 @@ Wire Wire Line
 Wire Wire Line
 	6550 2700 6150 2700
 Connection ~ 6150 2700
+Text HLabel 2600 3550 0    50   Input ~ 0
+CLOCK
+Wire Wire Line
+	2600 3550 2700 3550
 $EndSCHEMATC

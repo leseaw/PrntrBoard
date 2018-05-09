@@ -147,7 +147,7 @@ F5 "V_HEAT" I R 7650 3950 50
 F6 "HEATER" O R 7650 4300 50 
 $EndSheet
 $Comp
-L Connector_Specialized:Screw_Terminal_01x02 J2
+L Connector_Generic:Conn_01x02 J2
 U 1 1 5AB8F2FF
 P 8100 4050
 F 0 "J2" H 8180 4042 50  0000 L CNN
@@ -225,7 +225,7 @@ F3 "PWM" I R 8900 3650 50
 F4 "V_FAN" I L 8300 3500 50 
 $EndSheet
 $Comp
-L Connector_Specialized:Screw_Terminal_01x02 J7
+L Connector_Generic:Conn_01x02 J7
 U 1 1 5AB92C7F
 P 9400 3350
 F 0 "J7" H 9479 3342 50  0000 L CNN
@@ -236,7 +236,7 @@ F 3 "~" H 9400 3350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Specialized:Screw_Terminal_01x02 J6
+L Connector_Generic:Conn_01x02 J6
 U 1 1 5AB92D01
 P 9400 2800
 F 0 "J6" H 9479 2792 50  0000 L CNN
@@ -247,7 +247,7 @@ F 3 "~" H 9400 2800 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Specialized:Screw_Terminal_01x02 J5
+L Connector_Generic:Conn_01x02 J5
 U 1 1 5AB92D3C
 P 9400 2200
 F 0 "J5" H 9479 2192 50  0000 L CNN
@@ -258,7 +258,7 @@ F 3 "~" H 9400 2200 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Specialized:Screw_Terminal_01x02 J4
+L Connector_Generic:Conn_01x02 J4
 U 1 1 5AB92D90
 P 9400 1650
 F 0 "J4" H 9479 1642 50  0000 L CNN
@@ -467,7 +467,7 @@ Wire Wire Line
 Wire Wire Line
 	7150 5450 7150 5100
 $Comp
-L Connector_Specialized:Screw_Terminal_01x02 J8
+L Connector_Generic:Conn_01x02 J8
 U 1 1 5AC9DA10
 P 10150 1650
 F 0 "J8" H 10229 1642 50  0000 L CNN
@@ -478,7 +478,7 @@ F 3 "~" H 10150 1650 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Connector_Specialized:Screw_Terminal_01x02 J9
+L Connector_Generic:Conn_01x02 J9
 U 1 1 5AC9DAC8
 P 10150 2050
 F 0 "J9" H 10229 2042 50  0000 L CNN
@@ -507,7 +507,6 @@ Wire Wire Line
 	9900 1750 9900 2150
 Wire Wire Line
 	9900 2150 9950 2150
-Connection ~ 9950 2150
 Wire Wire Line
 	9950 2050 9850 2050
 Wire Wire Line
@@ -1068,7 +1067,7 @@ Wire Wire Line
 	4400 3400 4400 1250
 Connection ~ 4100 2900
 $Comp
-L Connector_Specialized:Screw_Terminal_01x02 J29
+L Connector_Generic:Conn_01x02 J29
 U 1 1 5ACB9063
 P 2350 900
 F 0 "J29" H 2270 575 50  0000 C CNN
@@ -1188,7 +1187,7 @@ F 3 "" H 1950 1400 50  0001 C CNN
 $EndComp
 NoConn ~ 1950 1400
 $Comp
-L Connector_Specialized:Screw_Terminal_01x02 J1
+L Connector_Generic:Conn_01x02 J1
 U 1 1 5AEDA4A7
 P 3500 1950
 F 0 "J1" H 3420 1625 50  0000 C CNN
@@ -1277,7 +1276,7 @@ L Device:C C89
 U 1 1 5ADECC47
 P 5050 1500
 F 0 "C89" H 5165 1546 50  0000 L CNN
-F 1 "0.001uF" H 5050 1400 50  0000 L CNN
+F 1 "1000pf" H 5050 1400 50  0000 L CNN
 F 2 "Capacitor_SMD:C_0603_1608Metric" H 5088 1350 50  0001 C CNN
 F 3 "~" H 5050 1500 50  0001 C CNN
 	1    5050 1500

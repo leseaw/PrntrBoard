@@ -1983,7 +1983,7 @@
         <pin num="14" name="Vdd" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="Logic_74xx" part="74LS02">
+    <libpart lib="74ls02" part="74LS02">
       <aliases>
         <alias>74HC02</alias>
         <alias>74HCT02</alias>
@@ -2017,7 +2017,7 @@
         <pin num="14" name="VCC" type="power_in"/>
       </pins>
     </libpart>
-    <libpart lib="Logic_74xx" part="74LS125">
+    <libpart lib="74ls125" part="74LS125">
       <aliases>
         <alias>74LVC125</alias>
       </aliases>

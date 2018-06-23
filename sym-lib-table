@@ -8,4 +8,6 @@
   (lib (name ap1117-15)(type Legacy)(uri ${KIPRJMOD}/ap1117-15.lib)(options "")(descr ""))
   (lib (name tmc5130)(type Legacy)(uri ${KIPRJMOD}/tmc5130.lib)(options "")(descr ""))
   (lib (name PrntrBoardV1-rescue)(type Legacy)(uri ${KIPRJMOD}/PrntrBoardV1-rescue.lib)(options "")(descr ""))
+  (lib (name 74ls02)(type Legacy)(uri ${KIPRJMOD}/74ls02.lib)(options "")(descr ""))
+  (lib (name 74ls125)(type Legacy)(uri ${KIPRJMOD}/74ls125.lib)(options "")(descr ""))
 )

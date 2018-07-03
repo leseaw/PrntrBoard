@@ -1,6 +1,6 @@
 Prntr Board V1
 ======================
-PrntrBoard is a 3D printer controller board designed to work with STM32 NUCLEO-64 F446 dev kits. The current version (V1) supports NUCLEO-64 series kits. The design is being developed on F446-RE kit.
+PrntrBoard is a 3D printer controller board designed to work as a shield to STM32 NUCLEO-64 F446 dev kit.
 
 ![Picture of Rev0 Kicad Rendering](Rev2_1.png)
 Some features of the board:
